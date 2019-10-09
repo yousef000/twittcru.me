@@ -1,0 +1,31 @@
+.displayReply{
+    width: 80%;
+    padding: 10px;
+    margin: 5px;
+    align-self: flex-end;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: white;
+    overflow: hidden;
+}
+@media(min-width: 900px){
+    .displayReply{
+        width: 800px;
+    }
+}
+@media(max-width: 899px){
+    .displayReply{
+        width: 95%;
+    }
+}
+
+.reply{
+    white-space: pre-wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #505050;
+    margin-top: -10px;
+    z-index: 100;
+}

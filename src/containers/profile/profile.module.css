@@ -1,0 +1,75 @@
+.profile{
+    background-color: #eee;
+}
+.textarea{
+    border-radius: 10px;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px darkgrey;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    height: 100px;
+}
+.send{
+    display: block;
+    box-sizing: border-box;
+    margin: auto;
+}
+.p{
+    width: 60%;
+    margin: 10px auto;
+    color:#d9534f;
+    font-weight: bold;
+}
+.profileInfo{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    border: 1px solid #cccccc;
+    box-shadow: 0 1px 2px darkgrey;
+    background-color: darkred;
+    border-radius: 5px;
+    margin: 0px auto;
+    height: 280px;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.profileHeader{
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 20px;
+    padding: 1px;
+}
+.userDisplayName{
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.numberOfCrushes{
+    color: white;
+
+   
+}
+@media(min-width: 900px){
+    .profileInfo{
+        width: 900px;
+    }
+}
+@media(max-width: 899px){
+    .profileInfo{
+        width: 95%;
+    }
+}
+@media(min-width: 600px){
+    .textarea{
+        width: 550px;
+    }
+}
+@media(max-width: 599px){
+    .textarea{
+        width: 90%;
+    }
+}

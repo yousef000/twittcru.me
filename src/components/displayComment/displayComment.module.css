@@ -1,0 +1,109 @@
+.displayComment{
+    width: 80%;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px lightgrey;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px auto;
+    align-self: flex-end;
+    box-sizing: border-box;
+    text-align: left;
+    background-color: white;
+    overflow: hidden;
+    z-index: 99;
+}
+@media(min-width: 900px){
+    .displayComment{
+        width: 800px;
+    }
+}
+@media(max-width: 899px){
+    .displayComment{
+        width: 95%;
+    }
+    .time{
+        float: right;
+        padding-left: 5px;
+    }
+}
+.name{
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.crush{
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    padding-left: 5px;
+}
+.comment{
+    white-space: pre-wrap;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-left: 2px solid #d9534f;
+}
+.time{
+    font-weight: bold;
+    color: #aaa;
+    font-size: 10px;
+    float: right;
+}
+.dot {
+    height: 3px;
+    width: 3px;
+    background-color: black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 5px;
+    margin-bottom: 2px;
+  }
+.profileHeader{
+      height: 50px;
+      width: 50px;
+      border-radius: 50%;
+      background-color: white;
+      margin-bottom: -40px;
+      margin-right: 13px;
+}
+.replyButton{
+    margin-left: 70px;
+    margin-top: 10px;
+    height: 20px;
+    width: 20px;
+    outline: none;
+    float: right;
+}
+.replyTextArea{
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    padding: 10px 10px 10px 10px;
+    outline: none;
+    height: 100px;
+    margin: 10px;
+    width: 97%;
+    font-size: 12px;
+}
+.replySendButton{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    float: right;
+    outline: none;
+    
+}
+.tweetButton{
+    height: 18px;
+    padding: 0 6px;
+    cursor: pointer;
+    box-sizing: border-box;
+    float: right;
+    outline: none
+}
+

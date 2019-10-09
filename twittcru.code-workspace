@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "public"
+		},
+		{
+			"path": "src"
+		},
+		{
+			"path": "node_modules"
+		},
+		{
+			"path": "/Users/marjandost/burger-builder/src/components/Navigation/SideDrawer"
+		}
+	]
+}
